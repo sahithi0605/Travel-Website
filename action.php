@@ -38,7 +38,7 @@
 		if(mysqli_query($conn, $sql)){
 			echo "<h3>Registration Successful</h3>";
 
-			echo nl2br("<p>Thank you for registering <strong>$name</strong>. \nHope you enjoy your stay at <em>$place.</em> </p>");
+			//echo nl2br("<p>Thank you for registering <strong>$name</strong>. \nHope you enjoy your stay at <em>$place.</em> </p>");
 		 } else{
 			echo "Sorry there is a error recheck your details $sql. " 
 				. mysqli_error($conn);
