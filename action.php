@@ -32,7 +32,7 @@
 		
 		// Performing insert query execution
 		// here our table name is college
-		$sql = "INSERT INTO hotel_register VALUES ('$name',
+		$sql = "INSERT INTO travel_register VALUES ('$name',
 			'$phone','$place','$guests','$date', '$depart')";
 		
 		if(mysqli_query($conn, $sql)){
