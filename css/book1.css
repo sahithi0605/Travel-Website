@@ -1,0 +1,28 @@
+body{
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-flat-tourist-season-world-map-background-image_193765.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+    text-align: center;
+    color:firebrick;
+
+}
+form{
+    text-align: center;
+    padding:35px;
+}
+div{
+    color:black;
+    font-size: 16px;
+    padding: 5px;
+}
+label{
+    width:155px;
+    height:45px;
+}
+
+
+
+

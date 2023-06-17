@@ -1,0 +1,135 @@
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-link{
+    font-size: 1rem;
+    color:brown;
+}
+.navbar-brand span{
+    color:firebrick;
+}
+.btn{
+   color: chocolate; 
+}
+.navbar-custom{
+  background-color:mintcream;
+}
+
+#header{
+   padding-bottom: 50px;
+}
+
+img{
+    height: 550px;
+}
+.row{
+    display: flex;
+  flex-wrap: wrap;
+}
+.row1{
+    padding-bottom: 20px;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    color:firebrick;
+    margin-bottom: 0;
+}
+h3{
+    font-size: 1rem;
+    
+}
+#about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    padding-bottom: 40px;
+}
+#about .image{
+  flex:1 1 35rem;
+}
+#about .image img{
+    width:100%;
+    height:300px;
+    padding-left: 10%;
+} 
+#about .content{
+    flex:1 1 35rem;
+}
+.icons{
+    color:indianred;
+}
+.icons:hover {
+    color:darksalmon;
+}
+#services{
+    padding-top: 35px;
+    background-color:beige;
+    padding-bottom: 35px;
+}
+.card{
+    height:18rem;
+    width:20rem;
+    padding-top: 0px;
+}
+.card-body{
+    text-align: center;
+}
+.col{
+    padding: 2% 6%;
+}
+#packages{
+    padding: 30px;
+}
+
+.card img{
+    width:320px;
+    height:200px;
+}
+
+#contact{
+    padding: 20px;
+    margin-bottom:0;
+}
+
+.con h3{
+    font-size: 1.2rem;
+    color:brown;
+    padding:5px;
+}
+.con ul{
+    padding: 0;
+}
+
+#reviews{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    background-color:beige;
+    color:black;
+}
+.test-img{
+    border-radius: 100%;
+    width:200px;
+    height:200px;
+    margin: 20px;
+}
+
+p{
+    padding: 0 50px;
+}
+#foot{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+    background-color: beige;
+}
+@media (max-width:992px){
+    .row .feature-box{
+        flex-direction: column;
+    }
+}
+
